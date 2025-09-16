@@ -1,27 +1,35 @@
+
 {
-  "Agricultural Production": {
-    "Soil": ["Soil fertility", "Erosion control"],
-    "Crops": ["Crop rotation", "Precision planting"],
-    "Livestock": ["Grazing systems", "Animal health"],
-    "Irrigation": ["Drip irrigation", "Rainwater harvesting"],
-    "Pest Control": ["Integrated pest management", "Biocontrol"]
+  "Level 1A": {
+    "Level 2A": {
+      "Level 3A": {
+        "Level 4A": {
+          "Level 5A": ["Final Item 1", "Final Item 2"]
+        },
+        "Level 4B": {
+          "Level 5B": ["Final Item 3", "Final Item 4"]
+        }
+      }
+    },
+    "Level 2B": {
+      "Level 3B": {
+        "Level 4C": {
+          "Level 5C": ["Final Item 5"]
+        }
+      }
+    }
   },
-  "Energy Production": {
-    "Solar": ["PV panels", "Thermal systems"],
-    "Wind": ["Turbines", "Micro-wind setups"]
-  },
-  "Autonomous Systems": {
-    "Robotics": ["Field drones", "Weeding robots"],
-    "AI": ["Decision support", "Yield forecasting"]
-  },
-  "Digital Infrastructure": {
-    "Networking": ["Mesh networks", "LoRa"],
-    "Data": ["Open data platforms"]
-  },
-  "Medical Care": {
-    "Diagnostics": ["Open microscopes", "Point-of-care devices"]
-  },
-  "Schooling & Education": {
-    "Curricula": ["STEM labs", "Mobile classrooms"]
+  "Level 1B": {
+    "Level 2C": {
+      "Level 3C": ["Final Item 6", "Final Item 7"]
+    },
+    "Level 2D": {
+      "Level 3D": {
+        "Level 4D": {
+          "Level 5D": ["Final Item 8"]
+        }
+      }
+    }
   }
 }
+
