@@ -36,5 +36,38 @@
         "children": []
       }
     ]
+  },
+    {
+    "id": "3",
+    "name": "Primary Domain C",
+    "children": [
+      {
+        "id": "3-1",
+        "name": "Sub C-1",
+        "children": [
+          {
+            "id": "3-1-1",
+            "name": "Sub C-1-1",
+            "children": [
+              {
+                "id": "3-1-1-1",
+                "name": "Sub C-1-1-1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "3-1-2",
+            "name": "Sub C-1-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "3-2",
+        "name": "Sub C-2",
+        "children": []
+      }
+    ]
   }
 ]
