@@ -1,35 +1,57 @@
-
-{
-  "Level 1A": {
-    "Level 2A": {
-      "Level 3A": {
-        "Level 4A": {
-          "Level 5A": ["Final Item 1", "Final Item 2"]
-        },
-        "Level 4B": {
-          "Level 5B": ["Final Item 3", "Final Item 4"]
-        }
-      }
-    },
-    "Level 2B": {
-      "Level 3B": {
-        "Level 4C": {
-          "Level 5C": ["Final Item 5"]
-        }
-      }
-    }
+[
+  {
+    "id": "level1a",
+    "name": "Level 1A",
+    "parent_id": null
   },
-  "Level 1B": {
-    "Level 2C": {
-      "Level 3C": ["Final Item 6", "Final Item 7"]
-    },
-    "Level 2D": {
-      "Level 3D": {
-        "Level 4D": {
-          "Level 5D": ["Final Item 8"]
-        }
-      }
-    }
+  {
+    "id": "level1b",
+    "name": "Level 1B",
+    "parent_id": null
+  },
+  {
+    "id": "level2a",
+    "name": "Level 2A",
+    "parent_id": null
+  },
+  {
+    "id": "level2b",
+    "name": "Level 2B",
+    "parent_id": null
+  },
+  {
+    "id": "level3a",
+    "name": "Level 3A",
+    "parent_id": null
+  },
+  {
+    "id": "level4a",
+    "name": "Level 4A",
+    "parent_id": null
+  },
+  {
+    "id": "level4b",
+    "name": "Level 4B",
+    "parent_id": null
+  },
+  {
+    "id": "level5a",
+    "name": "Level 5A",
+    "parent_id": null
+  },
+  {
+    "id": "finalItem1",
+    "name": "Final Item 1",
+    "parent_id": "level5a"
+  },
+  {
+    "id": "finalItem2",
+    "name": "Final Item 2",
+    "parent_id": "level5a"
+  },
+  {
+    "id": "subItemA",
+    "name": "Sub Item A",
+    "parent_id": "finalItem1"
   }
-}
-
+]
