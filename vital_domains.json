@@ -1,0 +1,27 @@
+{
+  "Agricultural Production": {
+    "Soil": ["Soil fertility", "Erosion control"],
+    "Crops": ["Crop rotation", "Precision planting"],
+    "Livestock": ["Grazing systems", "Animal health"],
+    "Irrigation": ["Drip irrigation", "Rainwater harvesting"],
+    "Pest Control": ["Integrated pest management", "Biocontrol"]
+  },
+  "Energy Production": {
+    "Solar": ["PV panels", "Thermal systems"],
+    "Wind": ["Turbines", "Micro-wind setups"]
+  },
+  "Autonomous Systems": {
+    "Robotics": ["Field drones", "Weeding robots"],
+    "AI": ["Decision support", "Yield forecasting"]
+  },
+  "Digital Infrastructure": {
+    "Networking": ["Mesh networks", "LoRa"],
+    "Data": ["Open data platforms"]
+  },
+  "Medical Care": {
+    "Diagnostics": ["Open microscopes", "Point-of-care devices"]
+  },
+  "Schooling & Education": {
+    "Curricula": ["STEM labs", "Mobile classrooms"]
+  }
+}
