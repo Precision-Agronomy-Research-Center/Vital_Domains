@@ -1,58 +1,40 @@
-
-
-
-
-
 [
   {
-    "id": "1_Subsistence",
-    "name": "Subsistence",
-    "parent_id": null
-},
-  {  "id": "2_Agricultural Production",
-    "name": "Agricultural Production",
-    "parent_id": "1_Subsistence"
-  },
-   {  "id": "3_Soil",
-    "name": "Soil",
-    "parent_id": "2_Agricultural_Production"
-  }, 
-    {
-  "id": "1_infrastructure",
-  "name": "Infrastructure",
-  "parent_id": null
-  },
-  {
-    "id": "1_Energy_Production",
-    "name": "Electrification",
-    "parent_id": null
-  },
-  {
-    "id": "1_Healthcare",
-    "name": "Healthcare",
-    "parent_id": null
-  },
-    {
-    "id": "1_Healthcare",
-    "name": "Education",
-    "parent_id": null
-  },
-
-
-
-  {
-    "id": "finalItem1",
-    "name": "Final Item 1",
-    "parent_id": "level5a"
+    "id": "1",
+    "name": "Primary Domain A",
+    "children": [
+      {
+        "id": "1-1",
+        "name": "Sub A-1",
+        "children": [
+          {
+            "id": "1-1-1",
+            "name": "Sub A-1-1",
+            "children": []
+          },
+          {
+            "id": "1-1-2",
+            "name": "Sub A-1-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "1-2",
+        "name": "Sub A-2",
+        "children": []
+      }
+    ]
   },
   {
-    "id": "finalItem2",
-    "name": "Final Item 2",
-    "parent_id": "level5a"
-  },
-  {
-    "id": "subItemA",
-    "name": "Sub Item A",
-    "parent_id": "finalItem1"
+    "id": "2",
+    "name": "Primary Domain B",
+    "children": [
+      {
+        "id": "2-1",
+        "name": "Sub B-1",
+        "children": []
+      }
+    ]
   }
 ]
