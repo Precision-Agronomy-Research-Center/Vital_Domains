@@ -1,73 +1,104 @@
 [
   {
-    "id": "1",
-    "name": "Primary Domain A",
+    "id": "1_Subsistence",
+    "name": "Subsistence",
     "children": [
       {
-        "id": "1-1",
-        "name": "Sub A-1",
+        "id": "1-1_Agricultural_Production",
+        "name": "Agricultural Production",
         "children": [
           {
-            "id": "1-1-1",
-            "name": "Sub A-1-1",
+            "id": "1-1-1_Soil",
+            "name": "Soil",
             "children": []
-          },
+            },
           {
-            "id": "1-1-2",
-            "name": "Sub A-1-2",
+            "id": "1-1-2_Crops",
+            "name": "Crops",
             "children": []
-          }
-        ]
-      },
+            }
+          ]
+        },
       {
-        "id": "1-2",
-        "name": "Sub A-2",
+        "id": "1-2_Water",
+        "name": "Water",
         "children": []
-      }
-    ]
-  },
+        }
+      ]
+    },
   {
-    "id": "2",
-    "name": "Primary Domain B",
+    "id": "2_Infrastructure",
+    "name": "Infrastructure",
     "children": [
       {
-        "id": "2-1",
-        "name": "Sub B-1",
+        "id": "2-1_Transportation",
+        "name": "Transportation",
         "children": []
-      }
-    ]
-  },
-    {
-    "id": "3",
-    "name": "Primary Domain C",
-    "children": [
+        },
       {
-        "id": "3-1",
-        "name": "Sub C-1",
+        "id": "2-2_Energy",
+        "name": "Energy",
+        "children": []
+        },
+      {
+        "id": "2-3_Water_and_Sanitation",
+        "name": "Water and Sanitation",
+        "children": []
+        },
+      {
+        "id": "2-4_Communication",
+        "name": "Communication",
         "children": [
           {
-            "id": "3-1-1",
-            "name": "Sub C-1-1",
-            "children": [
-              {
-                "id": "3-1-1-1",
-                "name": "Sub C-1-1-1",
-                "children": []
-              }
-            ]
-          },
-          {
-            "id": "3-1-2",
-            "name": "Sub C-1-2",
+            "id": "2-4-1_Telecommunications",
+            "name": "Telecommunications",
             "children": []
-          }
-        ]
-      },
+            }
+          ]
+        },
       {
-        "id": "3-2",
-        "name": "Sub C-2",
+        "id": "2-5_Physical_Structures",
+        "name": "Physical Structures",
+        "children": [
+          {
+            "id": "2-5-1_Living",
+            "name": "Living",
+            "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+    "id": "3_Healthcare",
+    "name": "Healthcare",
+    "children": [
+      {
+        "id": "3-1_Human_Health",
+        "name": "Human Health",
         "children": []
-      }
-    ]
-  }
+        },
+      {
+        "id": "3-2_Animal_Health",
+        "name": "Animal Health",
+        "children": []
+        }
+      ]
+    },
+        {
+    "id": "4_Education",
+    "name": "Education",
+    "children": [
+      {
+        "id": "4-1_Adult_Education",
+        "name": "Adult Education",
+        "children": []
+        },
+      {
+        "id": "4-2_Childhood_Education",
+        "name": "Childhood Education",
+        "children": []
+        }      
+      ]
+    }
 ]

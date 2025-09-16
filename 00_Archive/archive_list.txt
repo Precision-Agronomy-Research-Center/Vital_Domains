@@ -70,21 +70,3 @@
     "parent_id": null
   },
 
-
-
-  {
-    "id": "finalItem1",
-    "name": "Final Item 1",
-    "parent_id": "level5a"
-  },
-  {
-    "id": "finalItem2",
-    "name": "Final Item 2",
-    "parent_id": "level5a"
-  },
-  {
-    "id": "subItemA",
-    "name": "Sub Item A",
-    "parent_id": "finalItem1"
-  }
-]
